@@ -1,0 +1,9 @@
+lockfileVersion: 5.4
+
+importers:
+
+  packages/core:
+    specifiers:
+      '@pnpm-publish/utils': workspace:^1.0.0
+    dependencies:
+      '@pnpm-publish/utils': link:../utils
